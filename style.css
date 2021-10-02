@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 205px;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-link-right {
+    display: flex;
+    column-gap: 24px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+/* Main */
+.main {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 100px 205px;
+    column-gap: 200px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.title-subtext {
+    margin-bottom: 18px;
+}
+
+.top-sign-up {
+    border-style: hidden;
+    padding: 8px 34px;
+}
+
+.main-milk-img {
+    max-width: 400px;
+    width: 600;
+}
+
+/* Information */
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Not sure why removing the height screws up the formatting, but margin-bottom also fixes the formatting issue, still unclear of cause */
+    height: 600px;
+}
+
+.info-title {
+    margin: 60px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    column-gap: 40px;
+}
+
+.info {
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.info-img {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882f6;
+    margin-bottom: 8px;
+}
+
+.info-text {
+    text-align: center;
+    color: gray;
+}
+
+
+/* Quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding-right: 60px;
+}
+
+
+/* Sign up */
+.sign-up {
+    display: flex;
+    margin: 100px 180px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 50px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-title {
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.bottom-sign-up {
+    color: white;
+    padding: 8px 34px;
+    border-style: solid;
+    border-color: white;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 300px;
+    font-size: 18px;
+}
+
+/* Anchor settings */
+a {
+    text-decoration: none;
+}
+
+/* Unordered list settings */
+ul {
+    list-style-type: none;
+}
+
+/* Grouping selectors */
+.header-link-right, .top-sign-up, .bottom-sign-up {
+    font-size: 18px;
+}
+
+.logo, .title, .top-sign-up, .sign-up-box, .footer-text {
+    color: #f9faf8;
+}
+
+.title-subtext, .sign-up-text {
+    color: #e5e7eb;
+}
+
+.quote-author, .sign-up-title {
+    font-size: 24px;
+}
+
+.top-sign-up, .bottom-sign-up {
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+a, .footer-text {
+    color: #b8b8b8;
+}
