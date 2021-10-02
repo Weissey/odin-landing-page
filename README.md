@@ -11,17 +11,17 @@ In addition to anchor elements, I also found it necessary to apply list-style-ty
 This is also the first project where I used comments as I deemed necessary to organize my CSS better, in addition to using grouping selectors for the first time to reduce code bloat.
 
 Newly learned CSS:
-    border-radius
-    border-color
-    border-style
-    column-gap
-    text-decoration
-    list-style-type
+- border-radius
+- border-color
+- border-style
+- column-gap
+- text-decoration
+- list-style-type
 
 
 Credits:
-    Milk splashing image, courtesy of https://unsplash.com/@dslr_newb
-    Oat milk image, courtesy of https://unsplash.com/@madalyncox
-    Dairy milk image, courtesy of https://unsplash.com/@shootdelicious
-    Soy milk image, courtesy of https://unsplash.com/@picoftasty
-    Almong milk image, courtesy of https://unsplash.com/@sendun
+- Milk splashing image, courtesy of https://unsplash.com/@dslr_newb
+- Oat milk image, courtesy of https://unsplash.com/@madalyncox
+- Dairy milk image, courtesy of https://unsplash.com/@shootdelicious
+- Soy milk image, courtesy of https://unsplash.com/@picoftasty
+- Almong milk image, courtesy of https://unsplash.com/@sendun
